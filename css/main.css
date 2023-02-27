@@ -1,10 +1,11 @@
 /* ------------------- General ------------------- */
 
 body {
-	font-family: 'Roboto', sans-serif;
-	color: #161616;
+	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Taviraj', serif;
+	color: #1c2d5a;
 	margin: 0;
-
+	background-color: #f7f6f4;
 	padding-bottom: 140px;
 }
 
@@ -168,7 +169,7 @@ h6 {
 
 .calc-section {
 	padding: 40px 50px;
-	background-color: #f4f8fa;
+	background-color: #f7f6f4;
 }
 
 .calc-section:nth-child(odd) {
