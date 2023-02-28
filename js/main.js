@@ -11,8 +11,8 @@ const walls = document.querySelector('input[name="walls"]');
 const floor = document.querySelector('input[name="floor"]');
 
 const basePrice = 8000;
+
 const totalPriceElement = document.querySelector('#total-price');
-console.log(totalPriceElement);
 squareRange.addEventListener('input', function () {
 
 
@@ -61,7 +61,6 @@ function calculate() {
 calculate();
 
 for (const input of inputs) {
-
 	input.addEventListener('input', function () {
 		totalPrice = basePrice * parseInt(squareInput.value);
 		calculate();
