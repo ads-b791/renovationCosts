@@ -5,7 +5,8 @@ body {
 	font-family: 'Taviraj', serif;
 	color: #1c2d5a;
 	margin: 0;
-	background-color: #f7f6f4;
+	background-color: #f2f2f2;
+	/*background-color: #f7f6f4;*/
 	padding-bottom: 140px;
 }
 
@@ -169,7 +170,7 @@ h6 {
 
 .calc-section {
 	padding: 40px 50px;
-	background-color: #f7f6f4;
+	background-color: #f4f8fa;
 }
 
 .calc-section:nth-child(odd) {
@@ -305,6 +306,7 @@ h6 {
 	bottom: 0;
 	background-color: rgb(218, 243, 255);
 	background-color: white;
+	/*background-color: #f7f6f4;*/
 	box-shadow: -10px 0px 25px rgba(143, 179, 195, 0.685);
 }
 
@@ -356,5 +358,5 @@ h6 {
 }
 
 .rooms-radio-real:checked + .rooms-radio-fake {
-	background-color: #55b570;
+	background-color: #f1ddc9;
 }
